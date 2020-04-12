@@ -41,3 +41,16 @@ int getID(){
 		return this.price*0.15;
 	}
 }
+
+class Receipt{
+  private List<Item> items;
+  Receipt(List<Item> items){
+    this.items = items;  
+  }
+  public List getItems(){
+    return this.items;  
+  }
+  public void setItems(List<Item> items){
+    this.items = items;  
+  }
+}
